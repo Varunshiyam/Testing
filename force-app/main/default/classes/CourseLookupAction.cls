@@ -1,6 +1,7 @@
 public with sharing class CourseLookupAction {
     
     public class CourseSearchRequest {
+        //ignore fot git
         @InvocableVariable(label='Search Query' description='The search term to find courses' required=true)
         public String searchQuery;
     }
