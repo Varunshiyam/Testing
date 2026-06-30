@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>download1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>App for managing data exposed via the public API.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Public API Management</label>
+    <navType>Standard</navType>
+    <tabs>standard-ApprovalsHome</tabs>
+    <tabs>PublicData__c</tabs>
+    <tabs>Application__c</tabs>
+    <tabs>Badge__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Event__c</tabs>
+    <tabs>Registration__c</tabs>
+    <tabs>Order__c</tabs>
+    <tabs>Customer__c</tabs>
+    <tabs>Payment__c</tabs>
+    <tabs>Food_Order__c</tabs>
+    <tabs>Delivery_Agent__c</tabs>
+    <tabs>Food_Order_Item__c</tabs>
+    <tabs>Book_Issue__c</tabs>
+    <tabs>Books__c</tabs>
+    <tabs>Order_Line_Items__c</tabs>
+    <tabs>Product__c</tabs>
+    <tabs>Cust1__c</tabs>
+    <tabs>Varun_Test__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Public_API_Management_UtilityBar</utilityBar>
+</CustomApplication>

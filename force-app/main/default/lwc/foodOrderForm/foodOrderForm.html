@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Place Food Order">
+        <div class="slds-p-around_medium">
+            <lightning-input
+                label="Customer Latitude"
+                type="number"
+                step="any"
+                onchange={handleLat}>
+            </lightning-input>
+
+            <lightning-input
+                label="Customer Longitude"
+                type="number"
+                step="any"
+                onchange={handleLng}>
+            </lightning-input>
+
+
+            <lightning-button
+                label="Place Order"
+                variant="brand"
+                onclick={placeOrder}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

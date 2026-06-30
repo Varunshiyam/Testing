@@ -4,7 +4,7 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <doesWarnOnForceComRedirect>false</doesWarnOnForceComRedirect>
     <doesWarnOnRedirect>false</doesWarnOnRedirect>
-    <domainPartition>scratch</domainPartition>
+    <domainPartition>trailblaze</domainPartition>
     <enableCrossDomainPreviewCookies>true</enableCrossDomainPreviewCookies>
     <enableEdgeDuringRollout>true</enableEdgeDuringRollout>
     <enableExtendedRedirections>false</enableExtendedRedirections>
@@ -16,7 +16,7 @@
     <instancedUrlRedirectHandling>NoRedirect</instancedUrlRedirectHandling>
     <isFirstPartyCookieUseRequired>false</isFirstPartyCookieUseRequired>
     <logRedirections>false</logRedirections>
-    <myDomainName>nosoftware-platform-3288</myDomainName>
+    <myDomainName>resilient-hawk-eqsdor-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <onboardCustomerSpecificSuffix>false</onboardCustomerSpecificSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>

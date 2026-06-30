@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Reason --></label>
+    <name>Request_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Casual</masterLabel>
+        <translation><!-- Casual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Earned</masterLabel>
+        <translation><!-- Earned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sick</masterLabel>
+        <translation><!-- Sick --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

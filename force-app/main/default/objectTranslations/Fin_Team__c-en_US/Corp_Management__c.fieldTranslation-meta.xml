@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Corp Management --></label>
+    <name>Corp_Management__c</name>
+    <picklistValues>
+        <masterLabel>LLP</masterLabel>
+        <translation><!-- LLP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPP</masterLabel>
+        <translation><!-- LPP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Limited</masterLabel>
+        <translation><!-- Private Limited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Sector</masterLabel>
+        <translation><!-- Public Sector --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

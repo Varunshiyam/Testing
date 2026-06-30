@@ -11,11 +11,95 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
-    <tabs>car__c</tabs>
+    <tabs>EMP__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>Admission__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>PublicData__c</tabs>
+    <tabs>Application__c</tabs>
+    <tabs>Badge__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Event__c</tabs>
+    <tabs>Registration__c</tabs>
+    <tabs>Order__c</tabs>
+    <tabs>Customer__c</tabs>
+    <tabs>Payment__c</tabs>
+    <tabs>Food_Order__c</tabs>
+    <tabs>Delivery_Agent__c</tabs>
+    <tabs>Food_Order_Item__c</tabs>
+    <tabs>Book_Issue__c</tabs>
+    <tabs>Books__c</tabs>
+    <tabs>Order_Line_Items__c</tabs>
+    <tabs>Product__c</tabs>
+    <tabs>Cust1__c</tabs>
+    <tabs>Varun_Test__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
-            <tab>car__c</tab>
+            <tab>Admission__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Application__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Badge__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Book_Issue__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Book__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Books__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Cust1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Customer__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Delivery_Agent__c</tab>
+        </mappings>
+        <mappings>
+            <tab>EMP__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Employee__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Event__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Food_Order_Item__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Food_Order__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Order_Line_Items__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Order__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Payment__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>PublicData__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Registration__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Varun_Test__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

@@ -7,7 +7,7 @@
     <enableCollapsibleSections>true</enableCollapsibleSections>
     <enableCollapsibleSideBar>false</enableCollapsibleSideBar>
     <enableCustomObjectTruncate>false</enableCustomObjectTruncate>
-    <enableCustomeSideBarOnAllPages>true</enableCustomeSideBarOnAllPages>
+    <enableCustomeSideBarOnAllPages>false</enableCustomeSideBarOnAllPages>
     <enableDeleteFieldHistory>false</enableDeleteFieldHistory>
     <enableExternalObjectAsyncRelatedLists>true</enableExternalObjectAsyncRelatedLists>
     <enableHoverDetails>true</enableHoverDetails>

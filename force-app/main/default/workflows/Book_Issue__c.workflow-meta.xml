@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Approval_For_Book</fullName>
+        <description>Approval For Book</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>insightssecurity@00ddl00000vudeluar.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Book_Issue_Notification_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Approved_Email</fullName>
+        <description>Approved Email</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>717823s160@resilient-hawk-eqsdor.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Book_Issue_Notification_Approved</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Book_Approved</fullName>
+        <field>Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Book Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Book_Rejected</fullName>
+        <field>Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Book Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

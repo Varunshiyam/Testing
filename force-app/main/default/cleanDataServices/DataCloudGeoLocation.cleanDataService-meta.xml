@@ -169,21 +169,21 @@
             <fieldMappingRows>
                 <SObjectType>Contact</SObjectType>
                 <fieldMappingFields>
-                    <dataServiceField>GeoAccuracyNum</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>MailingGeocodeAccuracy</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <fieldMappingRows>
-                <SObjectType>Contact</SObjectType>
-                <fieldMappingFields>
                     <dataServiceField>Latitude</dataServiceField>
                     <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
                     <priority>1</priority>
                 </fieldMappingFields>
                 <fieldName>MailingLatitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>Contact</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>GeoAccuracyNum</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>MailingGeocodeAccuracy</fieldName>
                 <mappingOperation>Autofill</mappingOperation>
             </fieldMappingRows>
             <fieldMappingRows>
@@ -318,6 +318,16 @@
             <fieldMappingRows>
                 <SObjectType>DatacloudAddress</SObjectType>
                 <fieldMappingFields>
+                    <dataServiceField>BillingPostalCode</dataServiceField>
+                    <dataServiceObjectName>Account</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>PostalCode</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>DatacloudAddress</SObjectType>
+                <fieldMappingFields>
                     <dataServiceField>BillingStreet</dataServiceField>
                     <dataServiceObjectName>Account</dataServiceObjectName>
                     <priority>1</priority>
@@ -333,16 +343,6 @@
                     <priority>1</priority>
                 </fieldMappingFields>
                 <fieldName>City</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <fieldMappingRows>
-                <SObjectType>DatacloudAddress</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>BillingPostalCode</dataServiceField>
-                    <dataServiceObjectName>Account</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>PostalCode</fieldName>
                 <mappingOperation>Autofill</mappingOperation>
             </fieldMappingRows>
             <fieldMappingRows>

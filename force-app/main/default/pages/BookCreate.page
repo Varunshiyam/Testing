@@ -1,0 +1,23 @@
+<apex:page controller="BookController" lightningStylesheets="false">
+    <apex:form >   
+    <apex:pageBlock title="Create a Book">
+        <apex:pageBlockSection columns="1">
+            
+        <apex:inputField value="{!book.Name}"/>
+        <apex:inputField value="{!book.Author__c}"/>
+        <apex:inputField value="{!book.ISBN__c}"/>
+        <apex:inputField value="{!book.Price_Of_The_Book__c}"/>
+        <apex:inputField value="{!book.Available_Copies__c}"/>
+        <apex:inputField value="{!book.Purchased_Date__c}"/>
+           
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save Book" action="{!saveBook}" />
+        </apex:pageBlockButtons>
+        
+        
+
+    </apex:pageBlock>   
+        </apex:form>
+</apex:page>

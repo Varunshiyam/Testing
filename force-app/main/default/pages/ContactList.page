@@ -1,0 +1,29 @@
+<apex:page standardController="Contact" recordSetVar="Contact" lightningStylesheets="true">
+    <apex:pageBlock title="Contact List">
+        <apex:pageBlocktable value="{!Contact}" var="cot">
+            <apex:column headerValue="Contact ID">
+            {!cot.Id}
+            </apex:column>
+            <apex:column headerValue="Contact Name">
+            {!cot.Name}
+            </apex:column>
+            <apex:column headerValue="Contact Phone">
+            {!cot.Phone}
+            </apex:column>
+            <apex:column headerValue="Contact Birthdate">
+            {!cot.Birthdate}
+            </apex:column>
+            <apex:column headerValue="Contact Email">
+            {!cot.Email}
+            </apex:column>
+            </apex:pageBlocktable>
+                                      
+    </apex:pageBlock>
+    
+        
+    
+    
+
+    
+    
+</apex:page>

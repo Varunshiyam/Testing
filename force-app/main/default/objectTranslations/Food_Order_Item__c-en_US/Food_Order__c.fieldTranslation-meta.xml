@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Food Order --></label>
+    <name>Food_Order__c</name>
+    <relationshipLabel><!-- Food Order Items --></relationshipLabel>
+</CustomFieldTranslation>

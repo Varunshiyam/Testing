@@ -13,18 +13,19 @@
     <enableChatterQuestionKBDeflection>false</enableChatterQuestionKBDeflection>
     <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
     <enableExternalMediaContent>true</enableExternalMediaContent>
+    <enableKbStandardSharing>true</enableKbStandardSharing>
     <enableKnowledge>true</enableKnowledge>
     <enableKnowledgeAgentContribution>false</enableKnowledgeAgentContribution>
     <enableKnowledgeAnswersPromotion>false</enableKnowledgeAnswersPromotion>
-    <enableKnowledgeArticleTextHighlights>false</enableKnowledgeArticleTextHighlights>
-    <enableKnowledgeCaseRL>true</enableKnowledgeCaseRL>
-    <enableKnowledgeKeywordAutoComplete>false</enableKnowledgeKeywordAutoComplete>
-    <enableKnowledgeTitleAutoComplete>false</enableKnowledgeTitleAutoComplete>
-    <enableLightningKbAutoLoadRichTextField>false</enableLightningKbAutoLoadRichTextField>
-    <enableLightningKnowledge>false</enableLightningKnowledge>
-    <showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
-    <showArticleSummariesInternalApp>true</showArticleSummariesInternalApp>
-    <showArticleSummariesPartnerPortal>true</showArticleSummariesPartnerPortal>
+    <enableKnowledgeArticleTextHighlights>true</enableKnowledgeArticleTextHighlights>
+    <enableKnowledgeCaseRL>false</enableKnowledgeCaseRL>
+    <enableKnowledgeKeywordAutoComplete>true</enableKnowledgeKeywordAutoComplete>
+    <enableKnowledgeTitleAutoComplete>true</enableKnowledgeTitleAutoComplete>
+    <enableLightningKbAutoLoadRichTextField>true</enableLightningKbAutoLoadRichTextField>
+    <enableLightningKnowledge>true</enableLightningKnowledge>
+    <showArticleSummariesCustomerPortal>false</showArticleSummariesCustomerPortal>
+    <showArticleSummariesInternalApp>false</showArticleSummariesInternalApp>
+    <showArticleSummariesPartnerPortal>false</showArticleSummariesPartnerPortal>
     <showValidationStatusField>true</showValidationStatusField>
     <suggestedArticles>
         <caseFields>

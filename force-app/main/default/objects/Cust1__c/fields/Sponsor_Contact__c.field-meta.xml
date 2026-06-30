@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsor_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Sponsor Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Cust1</relationshipLabel>
+    <relationshipName>Cust1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

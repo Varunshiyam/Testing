@@ -1,0 +1,26 @@
+<template>
+<lightning-card title="Product Price Fetcher" icon-name="custom:custom63">
+<div class="slds-p-around_medium">
+<lightning-input
+label="Enter Product Name"
+value={productName}
+onchange={handleNameChange}>
+</lightning-input>
+<lightning-button
+label="Get Price"
+variant="brand"
+class="slds-m-top_small"
+onclick={fetchPrice}>
+</lightning-button>
+<template if:true={product}>
+<div class="slds-m-top_medium">
+<p><strong>Name:</strong> {product.Name}</p>
+<p><strong>Price:</strong> INR {product.Price__c}</p>
+</div>
+</template>
+<template if:true={errorMessage}>
+<p class="slds-text-color_error slds-m-top_medium">{errorMessage}</p>
+</template>
+</div>
+</lightning-card>
+</template>
