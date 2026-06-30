@@ -25,6 +25,14 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Food_Order_Page</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>MyData</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>People</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
@@ -49,7 +57,7 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>OnlineSalesHome</name>
+        <name>LightningInstrumentation</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>

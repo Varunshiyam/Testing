@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Toppings --></label>
+    <name>Toppings__c</name>
+    <picklistValues>
+        <masterLabel>Berries</masterLabel>
+        <translation><!-- Berries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cream</masterLabel>
+        <translation><!-- Cream --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuts</masterLabel>
+        <translation><!-- Nuts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sprinklers</masterLabel>
+        <translation><!-- Sprinklers --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

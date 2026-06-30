@@ -8,12 +8,5 @@
         <plural>true</plural>
         <value>Courses</value>
     </caseValues>
-    <layouts>
-        <layout>Course Layout</layout>
-        <sections>
-            <label><!-- Course Overview --></label>
-            <section>Course Overview</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

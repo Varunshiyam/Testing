@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_Date</fullName>
+    <active>false</active>
+    <errorConditionFormula>Return_Date__c &lt;  Issue_Date__c</errorConditionFormula>
+    <errorDisplayField>Return_Date__c</errorDisplayField>
+    <errorMessage>Enter Correct Return Date</errorMessage>
+</ValidationRule>

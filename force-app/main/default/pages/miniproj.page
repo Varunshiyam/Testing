@@ -1,0 +1,22 @@
+<apex:page controller="StudentAdmissionController">
+<apex:form >
+<apex:pageMessages />
+<apex:pageBlock title="Student Admission Form">
+<apex:pageBlockSection title="Student Details" columns="2">
+<apex:inputField value="{!student.Name}" label="Student Name"/>
+<apex:inputField value="{!student.Email__c}" label="Email"/>
+<apex:inputField value="{!student.phone__c}" label="Phone"/>
+<apex:inputField value="{!student.DOB__c}" label="Date of Birth"/>
+<apex:inputField value="{!student.Gender__c}" label="Gender"/>
+</apex:pageBlockSection>
+<apex:pageBlockSection title="Admission Details" columns="2">
+<apex:inputField value="{!admission.AdmissionDate__c}" label="Admission Date"/>
+<apex:inputField value="{!admission.Course__c}" label="Course"/>
+<apex:inputField value="{!admission.Status__c}" label="Status"/>
+</apex:pageBlockSection>
+<apex:pageBlockButtons >
+<apex:commandButton action="{!saveDetails}" value="Submit"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

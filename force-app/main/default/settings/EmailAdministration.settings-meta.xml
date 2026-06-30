@@ -7,9 +7,9 @@
     <enableEmailToSalesforce>false</enableEmailToSalesforce>
     <enableEmailTrackingIPBlocklist>false</enableEmailTrackingIPBlocklist>
     <enableEmailWorkflowApproval>false</enableEmailWorkflowApproval>
-    <enableEnhancedEmailEnabled>false</enableEnhancedEmailEnabled>
+    <enableEnhancedEmailEnabled>true</enableEnhancedEmailEnabled>
     <enableHandleBouncedEmails>true</enableHandleBouncedEmails>
-    <enableHtmlEmail>false</enableHtmlEmail>
+    <enableHtmlEmail>true</enableHtmlEmail>
     <enableInternationalEmailAddresses>false</enableInternationalEmailAddresses>
     <enableListEmailLogActivities>true</enableListEmailLogActivities>
     <enableResendBouncedEmails>false</enableResendBouncedEmails>

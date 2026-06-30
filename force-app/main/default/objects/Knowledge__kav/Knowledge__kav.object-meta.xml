@@ -18,10 +18,13 @@
             <template>Toc</template>
         </articleTypeTemplates>
     </articleTypeChannelDisplay>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Knowledgekav</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
     <label>Knowledge</label>
     <pluralLabel>Knowledge</pluralLabel>
+    <searchLayouts></searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

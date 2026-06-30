@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>ReturnedSUM</name>
+        <dataType>Number</dataType>
+        <expression>{!Fetch_Book_issue.Books__r.Available_Copies__c}+1</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Book Returned-Increasing the Availability {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Book Returned-Increasing the Availability</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Fetch_Book_issue</name>
+        <label>Fetch Book issue</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Updating_Status_to_Returned</targetReference>
+        </connector>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Book_Issue__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Updating_Status_to_Returned</name>
+        <label>Updating Status to Returned</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Return_Date__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Returned</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Book_Issue__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Fetch_Book_issue</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

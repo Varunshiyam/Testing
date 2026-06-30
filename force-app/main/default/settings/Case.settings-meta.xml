@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAssignNotificationTemplate>unfiled$public/SupportCaseAssignmentNotification</caseAssignNotificationTemplate>
     <caseAutoProcUser>false</caseAutoProcUser>
+    <caseCreateNotificationTemplate>unfiled$public/SupportCaseCreatedPhoneInquiries</caseCreateNotificationTemplate>
     <caseFeedItemSettings>
         <characterLimit>400</characterLimit>
         <displayFormat>Default</displayFormat>
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <caseFeedReadUnreadLtng>false</caseFeedReadUnreadLtng>
-    <caseMergeInLightning>false</caseMergeInLightning>
+    <caseMergeInLightning>true</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>flowgwoszagkh3380@platformfreetrial.demo</defaultCaseOwner>
+    <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>717823s160@resilient-hawk-eqsdor.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>flowgwoszagkh3380@platformfreetrial.demo</defaultCaseUser>
+    <defaultCaseUser>717823s160@resilient-hawk-eqsdor.com</defaultCaseUser>
     <emailToCase>
         <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
         <enableE2CDeduplicateAttachments>false</enableE2CDeduplicateAttachments>
         <enableE2CExternalServer>false</enableE2CExternalServer>
         <enableE2CSourceTracking>true</enableE2CSourceTracking>
         <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>false</enableHtmlEmail>
+        <enableHtmlEmail>true</enableHtmlEmail>
         <enableNewToReadTriggers>false</enableNewToReadTriggers>
         <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadTokenInBody>false</enableThreadTokenInBody>
-        <enableThreadTokenInSubject>false</enableThreadTokenInSubject>
+        <enableThreadTokenInBody>true</enableThreadTokenInBody>
+        <enableThreadTokenInSubject>true</enableThreadTokenInSubject>
         <movingEmailEnabled>false</movingEmailEnabled>
         <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
         <overEmailLimitAction>Bounce</overEmailLimitAction>
@@ -33,7 +35,8 @@
         <useEmailHeadersForThreading>true</useEmailHeadersForThreading>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
-    <enableCollapseEmailThread>false</enableCollapseEmailThread>
+    <enableCaseSwarming>false</enableCaseSwarming>
+    <enableCollapseEmailThread>true</enableCollapseEmailThread>
     <enableDraftEmails>true</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
@@ -47,17 +50,20 @@
     <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
     <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
     <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
-    <enableSuggestedSolutions>false</enableSuggestedSolutions>
+    <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
+    <keepCaseMergeRecords>true</keepCaseMergeRecords>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
-    <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
+    <notifyOwnerOnCaseComment>true</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <visibleInCssCheckbox>false</visibleInCssCheckbox>
     <webToCase>
-        <enableWebToCase>false</enableWebToCase>
+        <caseOrigin>Web</caseOrigin>
+        <defaultResponseTemplate>unfiled$public/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
+        <enableWebToCase>true</enableWebToCase>
     </webToCase>
 </CaseSettings>

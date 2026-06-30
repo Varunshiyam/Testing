@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <decisions>
+        <name>Check_If_State_Is_West_Coast</name>
+        <label>Check If State Is West Coast</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_West_Coast</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.BillingState</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue> CA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.BillingState</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>WA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.BillingState</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>OR</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Region_Field</targetReference>
+            </connector>
+            <label>Is West Coast</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>SetRegionBasedOnState {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SetRegionBasedOnState</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Region_Field</name>
+        <label>Update Region Field</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <stringValue>West Coast</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_If_State_Is_West_Coast</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>BillingState</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>BillingState</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

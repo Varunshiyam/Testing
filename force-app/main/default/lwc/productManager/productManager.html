@@ -1,0 +1,35 @@
+<template>
+    <lightning-card title="Product Manager" icon-name="custom:custom63">
+        <div class="slds-p-horizontal_medium">
+            <lightning-input 
+                label="Product Name" 
+                value={productName}
+                onchange={handleNameChange}>
+            </lightning-input>
+
+            <lightning-input 
+                label="Price" 
+                type="number" 
+                value={productPrice}
+                onchange={handlePriceChange}>
+            </lightning-input>
+
+            <lightning-button 
+                label="Add Product" 
+                variant="brand" 
+                onclick={addProduct}
+                class="slds-m-top_small">
+            </lightning-button>
+        </div>
+
+        <template if:true={products}>
+            <lightning-datatable 
+                key-field="Id" 
+                data={products} 
+                columns={columns}
+                hide-checkbox-column
+                onrowaction={handleRowAction}> <!-- ✅ ADD THIS -->
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>

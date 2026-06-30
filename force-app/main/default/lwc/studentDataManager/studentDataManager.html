@@ -1,0 +1,28 @@
+<template>
+    <lightning-card title="Student Management" icon-name="standard:contact">
+
+        <!-- Form Inputs -->
+        <div class="slds-p-around_medium">
+            <lightning-input label="Name" value={name} onchange={handleInputChange} data-id="name"></lightning-input>
+            <lightning-input label="Email" value={email} onchange={handleInputChange} data-id="email"></lightning-input>
+            <lightning-input label="Roll Number" value={rollno} onchange={handleInputChange} data-id="rollno"></lightning-input>
+            <lightning-input label="Year of Studying" value={year} onchange={handleInputChange} data-id="year"></lightning-input>
+            <lightning-button variant="brand" label="Add Student" onclick={createStudent} class="slds-m-top_small"></lightning-button>
+        </div>
+
+        <!-- Student Table -->
+        <template if:true={students}>
+            <lightning-datatable
+                key-field="Id"
+                data={students}
+                columns={columns}
+                hide-checkbox-column="true"
+                onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </template>
+
+        <template if:true={error}>
+            <p class="slds-text-color_error">Error: {error}</p>
+        </template>
+    </lightning-card>
+</template>

@@ -8,12 +8,5 @@
         <plural>true</plural>
         <value>Enrollments</value>
     </caseValues>
-    <layouts>
-        <layout>Enrollment Layout</layout>
-        <sections>
-            <label><!-- Enrollment Details --></label>
-            <section>Enrollment Details</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

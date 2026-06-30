@@ -1,0 +1,29 @@
+<apex:page standardController="Book_Issue__c" recordSetVar="bookIssues">
+
+    <apex:pageBlock title="Issued Books">
+
+        <apex:pageBlockTable value="{!bookIssues}" var="issue" columns="3">
+
+            <apex:column headerValue="Book Name"
+                         value="{!issue.Books__r.Name}" />
+
+            <apex:column headerValue="Author"
+                         value="{!issue.Books__r.Author__c}" />
+            
+            <apex:column headerValue="Link">
+                <apex:outputLink value="/{!issue.Id}">
+                    {!issue.Name}
+                
+                </apex:outputLink>
+                    
+            </apex:column>
+
+
+        </apex:pageBlockTable>
+
+    </apex:pageBlock>
+    
+    
+    
+
+</apex:page>

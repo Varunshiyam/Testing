@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Create Case Input">
+        <div class="slds-p-around_medium">
+
+            <lightning-input
+                label="Case Subject"
+                onchange={handleSubjectChange}>
+            </lightning-input>
+
+            <lightning-input
+                type="number"
+                label="Number Of Cases"
+                onchange={handlenumberofcasesChange}>
+            </lightning-input>
+
+            <lightning-record-picker
+                label="Account"
+                object-api-name="Account"
+                onchange={handleAccountChange}>
+            </lightning-record-picker>
+
+            <br/>
+
+            <lightning-button
+                label="Create Cases"
+                variant="brand"
+                onclick={handleCreateCases}>
+            </lightning-button>
+
+        </div>
+    </lightning-card>
+</template>

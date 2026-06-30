@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Book Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Book Issue</value>
+    </caseValues>
+    <layouts>
+        <layout>Book Approval Process</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You Are Not Eligible For Issuing a Book --></errorMessage>
+        <name>Is_Eligible_for_Book</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Correct Date --></errorMessage>
+        <name>Issue_date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Correct Return Date --></errorMessage>
+        <name>Return_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

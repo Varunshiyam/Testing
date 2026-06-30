@@ -1,0 +1,50 @@
+<template>
+    <lightning-card title="Issue Book">
+
+        <lightning-record-edit-form
+            object-api-name="Book_Issue__c">
+
+            <div class="slds-p-around_medium">
+
+                <lightning-input-field
+                    field-name="Name"
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Books__c"
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Contact__c"
+                    required>
+                </lightning-input-field>
+
+                <!-- ISSUE DATE -->
+                <lightning-input-field
+                    field-name="Issue_Date__c"
+                    required
+                    onchange={handleIssueDate}>
+                </lightning-input-field>
+
+                <!-- RETURN DATE -->
+                <lightning-input-field
+                    field-name="Return_Date__c"
+                    required
+                    onchange={handleReturnDate}>
+                </lightning-input-field>
+
+                <br/>
+
+                <lightning-button
+                    label="Issue Book"
+                    variant="brand"
+                    onclick={handleSubmit}>
+                </lightning-button>
+
+            </div>
+        </lightning-record-edit-form>
+
+    </lightning-card>
+</template>

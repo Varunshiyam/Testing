@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Account list">
+        <template if:true={accounts}>
+            <template for:each={accounts} for:item="acc">
+                <div key={acc.Id} class="slds-box slds-m-bottom_small">
+                    <p><strong>{acc.Name}</strong></p>
+
+                    <lightning-button
+                        label="View"
+                        data-id={acc.Id}
+                        onclick={handleView}>
+                    </lightning-button>
+                </div>
+            </template>
+        </template>
+    </lightning-card>
+
+    <!-- Render Child Component -->
+    <template if:true={selectedAccountId}>
+        <c-account-detail account-id={selectedAccountId}></c-account-detail>
+    </template>
+</template>

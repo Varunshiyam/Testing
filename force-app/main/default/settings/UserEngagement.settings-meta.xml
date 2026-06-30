@@ -24,7 +24,7 @@
     <isAutoTransitionDelayed>false</isAutoTransitionDelayed>
     <isCrucNotificationDisabled>false</isCrucNotificationDisabled>
     <isCustomProfileAutoTransitionDelayed>false</isCustomProfileAutoTransitionDelayed>
-    <isLEXWelcomeMatDisabled>false</isLEXWelcomeMatDisabled>
+    <isLEXWelcomeMatDisabled>true</isLEXWelcomeMatDisabled>
     <isMeetTheAssistantDisabledInClassic>false</isMeetTheAssistantDisabledInClassic>
     <isMeetTheAssistantDisabledInLightning>false</isMeetTheAssistantDisabledInLightning>
     <isSmartNudgesDisabled>false</isSmartNudgesDisabled>

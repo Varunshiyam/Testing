@@ -38,7 +38,7 @@
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
-    <enableReportCdnPref>false</enableReportCdnPref>
+    <enableReportCdnPref>true</enableReportCdnPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
@@ -58,12 +58,11 @@
     <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
     <enableWaveIndexMVDimV2>false</enableWaveIndexMVDimV2>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
-    <enableWaveReplication>true</enableWaveReplication>
-    <enableWaveSharingInheritance>true</enableWaveSharingInheritance>
+    <enableWaveReplication>false</enableWaveReplication>
+    <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
-    <enableWaveTrendedDatasetCleanup>true</enableWaveTrendedDatasetCleanup>
+    <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
     <enableWriteToDataCloud>false</enableWriteToDataCloud>
-    <etlOrchestrationPref>false</etlOrchestrationPref>
     <isDiscoveryOptimizationEnabled>false</isDiscoveryOptimizationEnabled>
     <isHighVolumePushbackEnabled>false</isHighVolumePushbackEnabled>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>
@@ -73,6 +72,5 @@
     <recipePreCachingOptOut>false</recipePreCachingOptOut>
     <recipeStagedDataPref>false</recipeStagedDataPref>
     <replaceBlankMeasuresWithNulls>false</replaceBlankMeasuresWithNulls>
-    <sonicEnabled>false</sonicEnabled>
     <turnOnTimeZones>false</turnOnTimeZones>
 </AnalyticsSettings>

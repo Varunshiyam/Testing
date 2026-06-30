@@ -1,0 +1,32 @@
+<apex:page controller="BookIssueCreate" lightningStylesheets="false">
+
+    <apex:form >
+
+        <apex:pageBlock title="Issue a Book">
+
+            <apex:pageBlockSection columns="1">
+
+                <!-- Master-Detail to Books -->
+                <apex:inputField value="{!book.Books__c}" />
+
+                <!-- Master-Detail to Contact -->
+                <apex:inputField value="{!book.Contact__c}" />
+
+                <!-- Issue & Return Info -->
+                <apex:inputField value="{!book.Issue_Date__c}" />
+                <apex:inputField value="{!book.Return_Date__c}" />
+
+                <!-- Status -->
+                <apex:inputField value="{!book.Status__c}" />
+
+            </apex:pageBlockSection>
+
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Issue Book" action="{!saveBook}" />
+            </apex:pageBlockButtons>
+
+        </apex:pageBlock>
+
+    </apex:form>
+
+</apex:page>

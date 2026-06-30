@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- FInStack --></label>
+        <name>FInStack</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Food Order --></label>
+        <name>Food_Order</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Internship Tracker --></label>
+        <name>Internship_Tracker</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Leave Ticketing --></label>
+        <name>Leave_Ticketing</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Library --></label>
+        <name>Library</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Public API Management --></label>
+        <name>Public_API_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Travel App --></label>
+        <name>Travel_App</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- tt_BaseURL --></label>
+        <name>trlhdtips__tt_BaseURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ConfimCancel --></label>
+        <name>trlhdtips__tt_ConfimCancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ConfimOK --></label>
+        <name>trlhdtips__tt_ConfimOK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_EnterPackageId --></label>
+        <name>trlhdtips__tt_EnterPackageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_InvalidPackageId --></label>
+        <name>trlhdtips__tt_InvalidPackageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordFail --></label>
+        <name>trlhdtips__tt_ResetPasswordFail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordSuccess --></label>
+        <name>trlhdtips__tt_ResetPasswordSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordTitle --></label>
+        <name>trlhdtips__tt_ResetPasswordTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordWarning --></label>
+        <name>trlhdtips__tt_ResetPasswordWarning</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Food Order Page --></label>
+        <name>Food_Order_Page</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Internship Home --></label>
+        <name>Internship_Home</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Leave Tickets --></label>
+        <name>Leave_Tickets</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Library --></label>
+        <name>Library</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- MyData --></label>
+        <name>MyData</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Ticket --></label>
+        <name>Ticket</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Book_Availability_SUM</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Book_Penality_Email</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Book_Returned_Increasing_the_Availability</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Books_Library_Minus</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Contact_Count_on_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Leave_Approval</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Mail_to_Manager_For_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>firstName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>lastName</name>
+                        <value/>
+                    </inputParameters>
+                    <name>contactName</name>
+                </fields>
+                <name>New_Contact</name>
+            </screens>
+        </flows>
+        <fullName>New_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Record_Triggered_Use_case_1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Registration</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>SetRegionBasedOnState</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Total_Contact_Counts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Update_Blank_Industry</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Variables</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>S_149a89f6_e93f_4402_b3c5_24148bee75c0</name>
+            </choices>
+            <choices>
+                <name>S_3792e0ac_4617_447c_b1de_9c5075f6b9d1</name>
+            </choices>
+            <choices>
+                <name>S_895a92c9_a675_4047_bd25_4b67d875a37b</name>
+            </choices>
+            <choices>
+                <name>S_a0e9d086_3411_4d8f_950d_f2758a33fc68</name>
+            </choices>
+            <choices>
+                <name>S_f6dcd3bd_2efc_4cdd_a3d5_4fb54e458aac</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>S_55cf98c1_dc1a_4104_b385_89dab3632c94</name>
+                </fields>
+                <fields>
+                    <name>S_62185e3d_591b_4ade_9910_383fb5ff11cf</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>S_50a1d272_b234_4f92_a8fe_fa15dc797af4</name>
+                </fields>
+                <fields>
+                    <name>S_8b93e61a_35a5_435c_9c3d_30831d2252d6</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>new_flow_leave</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>record_triggered_Practice</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>sfdc_default_ReportExport_Protection_Flow</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- 新規記事 --></label>
+        <name>KnowledgeArticlePreconfigured</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Register_event --></description>
+        <label><!-- Register_event --></label>
+        <name>Register_event</name>
+        <sections>
+            <label><!-- Events --></label>
+            <name>Events</name>
+        </sections>
+        <sections>
+            <label><!-- Registrations --></label>
+            <name>Registrations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Registrations with Students and Events --></description>
+        <label><!-- Registrations with Students and Events --></label>
+        <name>Registrations_with_Students_and_Events</name>
+        <sections>
+            <label><!-- Event --></label>
+            <name>Event</name>
+        </sections>
+        <sections>
+            <label><!-- Registrations --></label>
+            <name>Registrations</name>
+        </sections>
+        <sections>
+            <label><!-- Student --></label>
+            <name>Student</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Run Logs Spring &apos;24 --></description>
+        <label><!-- Orchestration Run Logs Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Run Log --></label>
+            <name>Orchestration Run Log</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Stage Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Stage Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Stage Runs --></label>
+            <name>Orchestration Stage Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Step Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Step Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Work Items Spring &apos;24 --></description>
+        <label><!-- Orchestration Work Items Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Orchestration Step Run: Label --></label>
+                <name>Orchestration Step Run: Label</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Name --></label>
+                <name>Orchestration Step Run: Name</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Status --></label>
+                <name>Orchestration Step Run: Status</name>
+            </columns>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Assigned Group or Queue --></label>
+                <name>Assigned Group or Queue</name>
+            </columns>
+            <columns>
+                <label><!-- Assigned User --></label>
+                <name>Assigned User</name>
+            </columns>
+            <label><!-- Orchestration Work Items --></label>
+            <name>Orchestration Work Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

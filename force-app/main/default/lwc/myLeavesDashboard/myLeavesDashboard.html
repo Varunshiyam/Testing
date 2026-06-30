@@ -1,0 +1,63 @@
+<template>
+    <lightning-card title="My Leaves Dashboard">
+        <div class="slds-p-horizontal_medium slds-m-bottom_medium">
+            <lightning-combobox
+                name="employeeSelect"
+                label="Select Employee"
+                placeholder="Choose an Employee"
+                options={employeeOptions}
+                value={selectedEmployeeId}
+                onchange={handleEmployeeChange}>
+            </lightning-combobox>
+        </div>
+
+        <template if:true={leaves.length}>
+            <div class="slds-p-horizontal_medium slds-m-bottom_medium">
+                <p><strong>Total Leave Days Taken:</strong> {totalLeaveDays}</p>
+            </div>
+
+            <div class="slds-p-horizontal_medium">
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Start Date">Start Date</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="End Date">End Date</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Days Taken">Number of Days</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Reason">Reason</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={leaves} for:item="leave">
+                            <tr key={leave.leaveId}>
+                                <td>{leave.startDate}</td>
+                                <td>{leave.endDate}</td>
+                                <td>{leave.numberOfDays}</td>
+                                <td>{leave.reason}</td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </template>
+
+        <template if:true={error}>
+            <div class="slds-text-color_error slds-p-around_medium">Error: {error.message}</div>
+        </template>
+
+        <template if:true={selectedEmployeeId}>
+            <template if:true={leaves}>
+                <template if:false={leaves.length}>
+                    <div class="slds-p-around_medium">No leave requests found for the selected employee.</div>
+                </template>
+            </template>
+        </template>
+    </lightning-card>
+</template>
